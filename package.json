@@ -1,0 +1,24 @@
+{
+  "name": "lecard-gestor",
+  "version": "1.0.0",
+  "description": "Gerenciador de Pedidos do LeCard Delivery",
+  "author": "storkdigital.com.br",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dist": "electron-builder"
+  },
+  "build": {
+    "asar": "true",
+    "productName": "Gestor de Pedidos - LeCard"
+  },
+  "license": "ISC",
+  "devDependencies": {
+    "electron": "^15.3.0",
+    "electron-builder": "^22.10.5"
+  },
+  "dependencies": {
+    "electron-updater": "^4.3.9"
+  }
+}
